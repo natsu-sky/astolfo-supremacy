@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "astolfo.js",
   "repository": "https://github.com/natsu-sky/astolfo-supremacy",
-  "author": "Getsumi",
+  "author": "Getsumei",
   "license": "MIT",
   "scripts": {
     "start": "node ."
