@@ -1,6 +1,7 @@
+const path = require("path");
 const server = require('express')();
 server.get("/", (request, response) => {
-  response.sendFile("./wallpaperflare.com_wallpaper.jpg");
+  response.sendFile(path.join(__dirname, 'wallpaperflare.com_wallpaper.jpg'));
   response.status(200);
   response.end();
 });
