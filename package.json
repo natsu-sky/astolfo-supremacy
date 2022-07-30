@@ -5,6 +5,9 @@
   "repository": "https://github.com/natsu-sky/astolfo-supremacy",
   "author": "Getsumei",
   "license": "MIT",
+  "dependencies": {
+  "express": "^4.18.1",
+  },
   "scripts": {
     "start": "node ."
   }
