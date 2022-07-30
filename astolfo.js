@@ -1,6 +1,7 @@
-const server = require('http').createServer();
-server.on("request", (request, response) => {
-  response.writeHead(200);
-  response.end("Astolfo is hot and you are too <3.", "utf-8");
+const server = require('express')();
+server.get("/", (request, response) => {
+  response.sendFile("wallpaperflare.com_wallpaper.jpg");
+  response.status(200);
+  response.end();
 });
 server.listen(process.env.PORT);
